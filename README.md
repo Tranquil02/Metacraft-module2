@@ -18,6 +18,13 @@ The Prashant Crypto ATM dApp allows users to connect their MetaMask wallet and i
    ```bash
    npm i
 3. open two additional terminals in your VS Code.
+   In the second terminal, start the local Ethereum node:
     ```bash
     npx hardhat node
+
+In the third terminal, deploy the smart contracts to the local network:
+   ```bash
+      npx hardhat run --network localhost scripts/deploy.js
+
+
  
